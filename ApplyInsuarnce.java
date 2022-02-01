@@ -86,35 +86,35 @@ public class ApplyInsuarnce extends BaseClass{
 		
 		///////// next page
 		
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		driver.findElement(By.xpath("(//a[contains(.,'Book Now')])[1]")).click();
+// 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+// 		driver.findElement(By.xpath("(//a[contains(.,'Book Now')])[1]")).click();
 		
 		
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("window.scrollBy(0,300)", "");
+// 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+// 		JavascriptExecutor js = (JavascriptExecutor) driver;
+// 		js.executeScript("window.scrollBy(0,300)", "");
 		
-		WebElement fullName = driver.findElement(By.xpath("//input[@placeholder='Full Name']"));
-		fullName.click();
-		fullName.sendKeys("ram kumar");
+// 		WebElement fullName = driver.findElement(By.xpath("//input[@placeholder='Full Name']"));
+// 		fullName.click();
+// 		fullName.sendKeys("ram kumar");
 		
-		WebElement contactNumber = driver.findElement(By.xpath("//input[@placeholder='Contact Number']"));
-		contactNumber.click();
-		contactNumber.sendKeys("9876567898");
+// 		WebElement contactNumber = driver.findElement(By.xpath("//input[@placeholder='Contact Number']"));
+// 		contactNumber.click();
+// 		contactNumber.sendKeys("9876567898");
 		
-		WebElement email = driver.findElement(By.xpath("//input[@placeholder='Email']"));
-		email.click();
-		email.sendKeys("ramkumar54@gmail.com");
+// 		WebElement email = driver.findElement(By.xpath("//input[@placeholder='Email']"));
+// 		email.click();
+// 		email.sendKeys("ramkumar54@gmail.com");
 		
-		WebElement address = driver.findElement(By.xpath("//input[@placeholder='Address Line 1']"));
-		address.click();
-		address.sendKeys("chennai");
-		js.executeScript("window.scrollBy(0,4"+ "50)", "");
+// 		WebElement address = driver.findElement(By.xpath("//input[@placeholder='Address Line 1']"));
+// 		address.click();
+// 		address.sendKeys("chennai");
+// 		js.executeScript("window.scrollBy(0,4"+ "50)", "");
 		
 		
-		driver.findElement(By.xpath("//span[contains(.,'Country')]")).click();
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		driver.findElement( By.xpath("(//span[contains(.,'India')])[7]")).click();
+// 		driver.findElement(By.xpath("//span[contains(.,'Country')]")).click();
+// 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+// 		driver.findElement( By.xpath("(//span[contains(.,'India')])[7]")).click();
 		
 //		WebElement state = driver.findElement(By.xpath("//span[contains(.,'State / Province')]"));
 //		state.click();
@@ -124,16 +124,16 @@ public class ApplyInsuarnce extends BaseClass{
 //		Select select=new Select(state);
 //		select.selectByVisibleText("Tamil Nadu");
 		
-		WebElement cithName = driver.findElement(By.xpath("//input[@placeholder='City']"));
-		cithName.click();
-		cithName.sendKeys("Chennai");
+// 		WebElement cithName = driver.findElement(By.xpath("//input[@placeholder='City']"));
+// 		cithName.click();
+// 		cithName.sendKeys("Chennai");
 		
-		WebElement pinCode = driver.findElement(By.xpath("//input[@placeholder='Postal / Zip Code']"));
-		pinCode.click();
-		pinCode.sendKeys("600097");
+// 		WebElement pinCode = driver.findElement(By.xpath("//input[@placeholder='Postal / Zip Code']"));
+// 		pinCode.click();
+// 		pinCode.sendKeys("600097");
 		
-		driver.findElement(By.xpath("//label[contains(.,'I accept that I belong to the selected province')]")).click();
-		driver.findElement(By.xpath("//span[contains(.,' By completing this booking, I agree to the')]")).click();
+// 		driver.findElement(By.xpath("//label[contains(.,'I accept that I belong to the selected province')]")).click();
+// 		driver.findElement(By.xpath("//span[contains(.,' By completing this booking, I agree to the')]")).click();
 		
 	}
 }
